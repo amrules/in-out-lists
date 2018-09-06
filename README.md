@@ -1,3 +1,5 @@
+This was built using Gatsby Starter blog. Their readme is below. 
+
 # gatsby-starter-default
 The default Gatsby starter.
 
