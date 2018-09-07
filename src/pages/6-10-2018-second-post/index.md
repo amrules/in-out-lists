@@ -1,8 +1,8 @@
 ---
-path: "/another-one"
+path: "/rachel-61118"
 date: "2018-06-11T17:12:33.962Z"
 title: "Rachel"
-tags: ['Rachel', 'Rose']
+tags: ['Rachel']
 ---
 
 | IN            | OUT           | 
