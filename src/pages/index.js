@@ -17,7 +17,7 @@ export default function Index({ data }) {
               </h1>
               <h2>The State of the Union by {post.frontmatter.title}</h2>
               
-              <p>{post.excerpt}</p>
+              
             </div>
           );
         })}
