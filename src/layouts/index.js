@@ -12,7 +12,7 @@ import "../styles/layout-overide.css";
 const Layout = ({ children, data }) => (
   <div>
   <Helmet
-    title="Gatsby Default Starter"
+    title="In and Out"
     meta={[
       { name: "description", content: "Sample" },
       { name: "keywords", content: "sample, something" }
