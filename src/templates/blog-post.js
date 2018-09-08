@@ -8,7 +8,7 @@ export default function Template({
   const post = data.markdownRemark; 
   return (
     <div className="blog-post-container">
-     <Helmet title={`CodeStack - ${post.frontmatter.title}`} />
+     <Helmet title={`In And Out - ${post.frontmatter.title}`} />
       <div className="blog-post">
          <h1 style={{textAlign: 'center'}}>{post.frontmatter.date}</h1>
          <h2 style={{textAlign: 'center'}}>A STATE OF THE UNION BY {post.frontmatter.title}</h2>
