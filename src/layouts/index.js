@@ -2,12 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Media from 'react-media'
+import favicon from '../static/logo/favicon.png'
 
 
 import Header from '../components/header'
 import Sidebar from '../components/sidebar'
 import './index.css'
 import "../styles/layout-overide.css";
+
+
 
 const Layout = ({ children, data }) => (
   <div>
@@ -17,6 +20,9 @@ const Layout = ({ children, data }) => (
       { name: "description", content: "Sample" },
       { name: "keywords", content: "sample, something" }
     ]}
+  link={[
+      { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+  ]}
   />
   <Header />
   <div
