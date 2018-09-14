@@ -31,6 +31,6 @@ p, div {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
-div.blog-post-content {
+td {
   font-size: 11px !important;
 }

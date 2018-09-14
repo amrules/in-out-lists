@@ -6,7 +6,9 @@ export default function Template({
   data 
 }) {
   const post = data.markdownRemark; 
+  console.log(post.html)
   return (
+   
     <div className="blog-post-container">
      <Helmet title={`In And Out - ${post.frontmatter.title}`} />
       <div className="blog-post">
