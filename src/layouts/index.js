@@ -17,7 +17,7 @@ const Layout = ({ children, data }) => (
   <Helmet
     title="In and Out"
     meta={[
-      { name: "description", content: "Sample" },
+      { name: "description", content: "The Current State of the Union" },
       { name: "keywords", content: "sample, something" }
     ]}
   link={[
