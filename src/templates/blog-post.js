@@ -24,11 +24,12 @@ export default function Template({
               );
               })}
             </h2>
+            <Img sizes={post.frontmatter.cover_image.childImageSharp.sizes} />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <Img sizes={post.frontmatter.cover_image.childImageSharp.sizes} />
+        
       </div>
       
     </div>
