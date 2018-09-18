@@ -9,11 +9,13 @@ export default function Template({
 }) {
   const post = data.markdownRemark; 
   console.log(post.html)
+  
   return (
    
     <div className="blog-post-container">
      <Helmet title={`In And Out - ${post.frontmatter.title}`} />
       <div className="blog-post">
+      
          <h1 style={{textAlign: 'center'}}>{post.frontmatter.date}</h1>
          <h2 style={{textAlign: 'center'}}>A STATE OF THE UNION BY {post.frontmatter.title}</h2>
           <h2 style={{textAlign: 'center'}}>More lists by {post.frontmatter.tags.map (tag => {
@@ -29,7 +31,7 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        
+     
       </div>
       
     </div>
