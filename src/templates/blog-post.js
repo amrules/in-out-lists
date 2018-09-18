@@ -1,6 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Link from 'gatsby-link';
+import Img from 'gatsby-image';
+
 
 export default function Template({
   data 
@@ -22,15 +24,21 @@ export default function Template({
               );
               })}
             </h2>
-
-      
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+        <Img sizes={post.frontmatter.cover_image.childImageSharp.sizes} />
       </div>
+      
     </div>
+    
   );
+
+
+
+
+
 }
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
@@ -41,8 +49,17 @@ export const pageQuery = graphql`
         path
         title
         tags
+        cover_image {
+          publicURL
+          childImageSharp {
+            sizes(maxWidth: 500 ) {
+              srcSet
+            }
+          }
+        }
       }
     }
   }
 `
 ;
+

@@ -3,6 +3,7 @@ path: "/della-91618"
 date: "2018-09-16T17:12:33.962Z"
 title: "Della"
 tags: ['Della']
+cover_image: "./img/della-916.jpg"
 ---
 
 | IN            | OUT           | 
