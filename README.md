@@ -3,7 +3,7 @@
 1. Fork this repo.
 2. Create a new folder under src/pages and name this folder the date of your list. 
 3. Create a new index.md file in your new folder. Put your list formatted in markdown here. 
-4. Make sure the frontmatter of your index.md file matches the other posts. All posts must have path, date, title, and tags. 
+4. Make sure the frontmatter of your index.md file matches the other posts. All posts must have path, date, title (your name), and tags (your name). 
 5. When you're done create a pull request.  
 
 This site was built using Gatsby Starter blog. Their readme is below. 
