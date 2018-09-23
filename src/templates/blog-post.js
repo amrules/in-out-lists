@@ -26,7 +26,7 @@ export default function Template({
               );
               })}
             </h2>
-            <Img sizes={post.frontmatter.cover_image.childImageSharp.sizes} />
+            <Img sizes={post.frontmatter.cover_image.childImageSharp.sizes} style={{position: "static !important"}} />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -55,7 +55,8 @@ export const pageQuery = graphql`
         cover_image {
           publicURL
           childImageSharp {
-            sizes(maxWidth: 500 ) {
+            sizes(maxWidth: 980 ) {
+              src
               srcSet
             }
           }
