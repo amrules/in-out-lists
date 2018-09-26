@@ -55,7 +55,7 @@ export const pageQuery = graphql`
         cover_image {
           publicURL
           childImageSharp {
-            sizes(maxWidth: 980 ) {
+            sizes(maxWidth: 515 ) {
               src
               srcSet
             }
