@@ -3,6 +3,7 @@ path: "/jake-92318"
 date: "2018-09-23T17:12:33.962Z"
 title: "Jake"
 tags: ['Jake']
+cover_image: "./img/n3otjake-92.jpeg"
 ---
 
 | IN            | OUT           | 

@@ -3,6 +3,7 @@ path: "/kelsey-91518"
 date: "2018-09-15T17:12:33.962Z"
 title: "Kelsey"
 tags: ['Kelsey']
+cover_image: "./img/kelsey-915.JPG"
 ---
 
 | IN            | OUT           | 

@@ -3,6 +3,7 @@ path: "/rose-91818"
 date: "2018-09-18T17:12:33.962Z"
 title: "Rose"
 tags: ['Rose']
+cover_image: "./img/rose-918.jpeg"
 ---
 *[Author Note: Road Trip USA list]*
 
