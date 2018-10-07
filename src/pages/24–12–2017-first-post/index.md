@@ -3,7 +3,7 @@ path: "/rose-61018"
 date: "2018-06-10T17:12:33.962Z"
 title: "Rose"
 tags: ["Rose"]
-cover_image: "./img/della-916.jpg"
+cover_image: "./img/rose-first.jpeg"
 ---
 
 

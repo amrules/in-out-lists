@@ -2,6 +2,8 @@ import React from "react";
 import Helmet from "react-helmet";
 import Link from 'gatsby-link';
 import Img from 'gatsby-image';
+import "../styles/layout-overide.css";
+
 
 
 export default function Template({
@@ -26,12 +28,15 @@ export default function Template({
               );
               })}
             </h2>
-            <Img sizes={post.frontmatter.cover_image.childImageSharp.sizes} style={{position: "static !important"}} />
+            
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-     
+        <Img sizes={post.frontmatter.cover_image.childImageSharp.sizes} style={{position: "static"}} />
+        <div>
+        <p style={{fontStyle: 'italic'}}>The state of {post.frontmatter.title} at the time of writing this list.</p>
+        </div>
       </div>
       
     </div>
