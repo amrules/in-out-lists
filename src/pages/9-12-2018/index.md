@@ -3,6 +3,7 @@ path: "/will-91218"
 date: "2018-09-12T17:12:33.962Z"
 title: "Will"
 tags: ['Will']
+cover_image: "./img/will-912.jpg"
 ---
 
 | IN            | OUT           | 

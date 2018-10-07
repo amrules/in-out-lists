@@ -3,6 +3,7 @@ path: "/will-post"
 date: "2018-06-12T17:12:33.962Z"
 title: "Will"
 tags: ['will']
+cover_image: "./img/will-612.jpg"
 ---
 
 | IN            | OUT           | 

@@ -34,3 +34,9 @@ p, div {
 td {
   font-size: 11px !important;
 }
+
+img {
+  position: static !important; 
+  max-width: 300px !important;
+  text-align: center !important;
+}

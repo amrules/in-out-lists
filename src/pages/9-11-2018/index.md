@@ -3,6 +3,7 @@ path: "/rose-91118"
 date: "2018-09-11T17:12:33.962Z"
 title: "Rose"
 tags: ['Rose']
+cover_image: "./img/rose-911.jpeg"
 ---
 
 | IN            | OUT           | 

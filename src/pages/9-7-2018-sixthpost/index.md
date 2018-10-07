@@ -3,6 +3,7 @@ path: "/amg-9718"
 date: "2018-09-07T17:12:33.962Z"
 title: "Ann Marie"
 tags: ['Ann-Marie']
+cover_image: "./img/amg-97.JPG"
 ---
 
 | IN            | OUT           | 
