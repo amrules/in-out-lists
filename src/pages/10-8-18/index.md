@@ -1,5 +1,5 @@
 ---
-path: "/kelsey-10718"
+path: "/johng-10718"
 date: "2018-10-08T17:12:33.962Z"
 title: "John G"
 tags: ['John-G']
