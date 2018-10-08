@@ -1,6 +1,6 @@
 ---
 path: "/kelsey-10718"
-date: "2018-10-07T17:12:33.962Z"
+date: "2018-10-08T17:12:33.962Z"
 title: "John G"
 tags: ['John-G']
 cover_image: "./img/johng-108.jpg"
