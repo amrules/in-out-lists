@@ -15,8 +15,3 @@ billie eilesh | ari
 procrastination & self-loathing | productivity 
 democracy | sitting on my ass
 
-Hope for November:  
-| IN            | OUT           | 
-| ------------- |:-------------:| 
-blue | red 
-living with intention | waiting for what's next
