@@ -8,7 +8,7 @@ cover_image: "./img/kendall-119.jpg"
 
 | IN            | OUT           | 
 | ------------- |:-------------:| 
-Long hair | dfgsd
+Long hair | don't care
 Cauliflower rice and zoodles | carbs (...except bread)
 The Chez billy chocolate torte | Luke morells ice cream 
 The Chez billy burger | the Georgetown club burger 
