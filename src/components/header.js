@@ -1,10 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import "../styles/blog-listing.css"
-
 
 const Header = () => (
-  <div className="headertest">
+  <div
+    style={{
+      background: 'pink',
+      height: '90px',
+      marginBottom: '3rem',
+      borderBottom: '2px solid #e6e6e6',
+    }}
+  >
     <div
       style={{
      
