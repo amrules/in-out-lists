@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import "../styles/layout-overide.css";
+import "../styles/blog-listing.css"
 
 
 const Header = () => (
