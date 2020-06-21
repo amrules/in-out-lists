@@ -3,7 +3,7 @@ path: "/dad-0620"
 date: "2020-06-20T17:12:33.962Z"
 title: "DAD"
 tags: ['DAD']
-cover_image: "./img/kendall-119.jpg"
+cover_image: "./img/dadfathersday.jpg"
 ---
 
 | IN            | OUT           | 
