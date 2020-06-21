@@ -6,6 +6,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -21,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-remark-images`,
       options: {
-        maxWidth: 300
+        maxWidth: 515,
       },
     },
 
