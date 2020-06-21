@@ -1,8 +1,12 @@
 import { graphql } from 'gatsby';
 import React from 'react'
 import Link from 'gatsby-link'
+import Header from '../components/header'
+
 
 import '../styles/blog-listing.css';
+
+< Header/>
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
